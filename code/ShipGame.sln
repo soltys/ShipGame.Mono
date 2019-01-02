@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipGame", "ShipGame\ShipGame.csproj", "{38A00DFA-F729-4705-8F0F-29E87237094A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeus.Core", "Zeus.Core\Zeus.Core.csproj", "{9AAD83E7-E7A1-4FF9-A5B5-38CEDCE4C702}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Zeus.Mono", "Zeus.Mono\Zeus.Mono.shproj", "{A0CDBD0E-3A41-42B7-9425-A838BC2C7383}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Zeus.Mono\Zeus.Mono.projitems*{38a00dfa-f729-4705-8f0f-29e87237094a}*SharedItemsImports = 4
+		Zeus.Mono\Zeus.Mono.projitems*{a0cdbd0e-3a41-42b7-9425-a838bc2c7383}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38A00DFA-F729-4705-8F0F-29E87237094A}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{38A00DFA-F729-4705-8F0F-29E87237094A}.Debug|x64.ActiveCfg = Debug|x64
+		{38A00DFA-F729-4705-8F0F-29E87237094A}.Debug|x64.Build.0 = Debug|x64
+		{38A00DFA-F729-4705-8F0F-29E87237094A}.Debug|x86.ActiveCfg = Debug|x86
+		{38A00DFA-F729-4705-8F0F-29E87237094A}.Debug|x86.Build.0 = Debug|x86
+		{38A00DFA-F729-4705-8F0F-29E87237094A}.Release|Any CPU.ActiveCfg = Release|x86
+		{38A00DFA-F729-4705-8F0F-29E87237094A}.Release|x64.ActiveCfg = Release|x64
+		{38A00DFA-F729-4705-8F0F-29E87237094A}.Release|x64.Build.0 = Release|x64
+		{38A00DFA-F729-4705-8F0F-29E87237094A}.Release|x86.ActiveCfg = Release|x86
+		{38A00DFA-F729-4705-8F0F-29E87237094A}.Release|x86.Build.0 = Release|x86
+		{9AAD83E7-E7A1-4FF9-A5B5-38CEDCE4C702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AAD83E7-E7A1-4FF9-A5B5-38CEDCE4C702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AAD83E7-E7A1-4FF9-A5B5-38CEDCE4C702}.Debug|x64.ActiveCfg = Debug|x64
+		{9AAD83E7-E7A1-4FF9-A5B5-38CEDCE4C702}.Debug|x64.Build.0 = Debug|x64
+		{9AAD83E7-E7A1-4FF9-A5B5-38CEDCE4C702}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9AAD83E7-E7A1-4FF9-A5B5-38CEDCE4C702}.Debug|x86.Build.0 = Debug|Any CPU
+		{9AAD83E7-E7A1-4FF9-A5B5-38CEDCE4C702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AAD83E7-E7A1-4FF9-A5B5-38CEDCE4C702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AAD83E7-E7A1-4FF9-A5B5-38CEDCE4C702}.Release|x64.ActiveCfg = Release|x64
+		{9AAD83E7-E7A1-4FF9-A5B5-38CEDCE4C702}.Release|x64.Build.0 = Release|x64
+		{9AAD83E7-E7A1-4FF9-A5B5-38CEDCE4C702}.Release|x86.ActiveCfg = Release|Any CPU
+		{9AAD83E7-E7A1-4FF9-A5B5-38CEDCE4C702}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BD4EFC1-D607-4A7D-A377-686CF58C57FD}
+	EndGlobalSection
+EndGlobal

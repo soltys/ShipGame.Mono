@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>d5d5d3bb-5441-4f72-a16f-c0aad56d5c7b</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Zeus.Mono</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ContentManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DrawService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GameContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GameUpdateContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IContentManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IDrawService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IGameContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IGameObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IGameUpdateContext.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
+  </ItemGroup>
+</Project>
